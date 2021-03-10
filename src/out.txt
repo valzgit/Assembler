@@ -1,0 +1,52 @@
+#id		#name		                    #section		#type		#offset		  #scope		#size		#Defined
+0		.UND		                     .UND:			section		   0			local		0			yes
+10		.bss:		                    .bss:			section		   0			local		0			yes
+1		.data:		                   .data:			section		   0			local		0			yes
+11		.end		                     .end			section		   0			local		0			yes
+8		.text:		                   .text:			section		   0			local		148			yes
+4		a_text		                   .text:			label		   8			local		0			yes
+5		b_text		                   .text:			label		   57			local		0			yes
+9		bss_label		                .text:			label		   32			local		0			yes
+7		c_text		                   .text:			label		   91			local		0			yes
+6		d_text		                   .text:			label		   142			local		0			yes
+2		data_label		               .data:			label		   0			local		0			yes
+3		pom_label		                .data:			label		   0			local		0			yes
+
+
+#.ret.UND:
+#ofset		tip			vr[.UND:]
+
+
+#.ret.data:
+#ofset		tip			vr[.data:]
+
+
+#.ret.text:
+#ofset		tip			vr[.text:]
+003E		R_386_64		1		[.text:]
+004E		R_386_64		10		[.text:]
+005D		R_386_64		10		[.text:]
+0069		R_386_PC64		1		[.text:]
+0074		R_386_64		10		[.text:]
+0090		R_386_PC64		10		[.text:]
+
+
+#.ret.bss:
+#ofset		tip			vr[.bss:]
+
+
+
+
+#.UND:
+
+
+#.data:
+
+
+#.text:
+08	64	80	08	00	6E	59	00	64	00	FF	7F	6E	FE	FF	6C	00	6F	00	80	39	00	2C	00	08	00	44	00	05	00	7C	46	24	54	04	06	00	4C	48	4C	3E	3C	2A	2C	4E	64	04	0A	00	46	54	04	5A	00	8C	46	4C	94	00	55	00	80	00	00	10	9C	00	AB	0F	80	5B	00	4C	00	0C	00	1C	00	20	00	24	00	5B	00	5C	00	07	00	80	00	00	4C	00	20	00	2C	66	5B	00	2C	64	05	00	3C	6E	FE	FF	2C	00	0A	00	AC	00	00	00	80	20	00	94	62	03	00	64	41	00	BC	80	39	00	48	94	22	4C	44	00	8E	00	C4	4E	80	5B	00	B4	6E	1E	00	2E	00	
+
+#.bss:
+
+
+

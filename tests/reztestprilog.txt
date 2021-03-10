@@ -1,0 +1,71 @@
+#id		#name		                    #section		#type		#offset		  #scope		#size		#Defined
+0		.UND		                     .UND:			section		   0			local		0			yes
+21		.bss:		                    .bss:			section		   0			local		4			yes
+5		.data:		                   .data:			section		   0			local		52			yes
+23		.end		                     .end			section		   0			local		0			yes
+13		.text:		                   .text:			section		   0			local		109			yes
+9		a_txt		                    .text:			label		   2			local		0			yes
+15		b_txt		                    .text:			label		   64			local		0			yes
+12		broj_Elem		                .data:			label		   52			local		0			yes
+17		c_text		                   .text:			label		   71			local		0			yes
+6		data_niz_byte		            .data:			label		   0			local		0			yes
+7		data_niz_word		            .data:			label		   15			local		0			yes
+18		data_txt		                 .text:			label		   93			local		0			yes
+8		eksterni_simboli_data		    .data:			label		   45			local		0			yes
+19		ekulabela		                .text:			label		   97			local		0			yes
+22		equ_bss		                  .bss:			label		   3			local		0			yes
+3		ext_dva		                  .UND:			label		   0			global		0			not
+2		ext_jedan		                .UND:			label		   0			global		0			not
+4		ext_tri		                  .UND:			label		   0			global		0			not
+10		ispis_Rezultata		          .data:			label		   47			local		0			yes
+16		kraj		                     .text:			label		   108			local		0			yes
+11		lista_byte_bss		           .bss:			label		   0			local		0			yes
+1		main		                     .text:			label		   0			global		0			yes
+14		nestoiz_txt		              .text:			label		   25			local		0			yes
+20		prvalista_bss		            .bss:			label		   4			local		0			yes
+
+
+#.ret.UND:
+#ofset		tip			vr[.UND:]
+
+
+#.ret.data:
+#ofset		tip			vr[.data:]
+002D		R_386_64		13		[.data:]
+002E		R_386_64		2		[.data:]
+002F		R_386_64		4		[.data:]
+0032		R_386_64		21		[.data:]
+
+
+#.ret.text:
+#ofset		tip			vr[.text:]
+0005		R_386_64		4		[.text:]
+000B		R_386_64		5		[.text:]
+0012		R_386_PC64		5		[.text:]
+0017		R_386_64		1		[.text:]
+0020		R_386_64		5		[.text:]
+002A		R_386_64		5		[.text:]
+0049		R_386_PC64		21		[.text:]
+0052		R_386_64		5		[.text:]
+005B		R_386_64		5		[.text:]
+
+
+#.ret.bss:
+#ofset		tip			vr[.bss:]
+
+
+
+
+#.UND:
+
+
+#.data:
+01	02	03	04	05	01	02	03	04	05	01	02	03	04	05	FF	FF	FE	FF	FD	FF	FC	FF	FB	FF	FF	FF	FE	FF	FD	FF	FC	FF	FB	FF	FF	FF	FE	FF	FD	FF	FC	FF	FB	FF	02	00	00	00	0F	07	00	00	
+
+#.text:
+4C	3E	64	20	80	00	00	54	28	2C	00	2D	00	64	80	19	00	6E	FE	FF	6C	2A	80	00	00	44	00	40	00	9C	22	80	00	00	AC	28	80	6C	00	64	20	80	2F	00	3C	80	19	00	A4	64	03	00	80	6C	00	94	20	68	0D	00	2C	80	F1	00	54	3E	C4	20	04	05	00	4C	6E	FE	FF	64	62	6C	00	20	3C	00	34	00	54	6A	5F	00	9C	20	80	00	00	AC	20	80	6C	00	B4	20	48	08	10	C4	20	04	05	00	00	
+
+#.bss:
+FF	FE	FF	FE	
+
+
